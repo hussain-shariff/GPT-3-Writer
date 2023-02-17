@@ -127,7 +127,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     flex: 0 0 auto;
     flex-flow: row nowrap;
     gap: 12px;
@@ -195,6 +195,10 @@ textarea {
     justify-content: flex-start;
     flex-shrink: 0;
     transform: none;
+}
+
+.generate-button:hover{
+    background-color: rgba(255, 77, 18, 0.61)
 }
 
 .generate p {
